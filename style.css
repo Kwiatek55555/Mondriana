@@ -82,3 +82,56 @@
 .left {
     float: left;
 }
+
+/* Picture */
+
+#picture {
+    width: 300px;
+    height: 300px;
+    margin: 20px auto 0;
+    background-color: #c0fa9f;
+    box-shadow: 10px 10px 20px grey;
+}
+.separate-columne {
+    height: 100%;
+    width: 4%;
+}
+
+#first-columne, #second-columne, #third-columne {
+    height: 100%;
+    width: 20%;
+}
+.gradient {
+    height: 100%;
+    width: 4%;
+}
+.large-size-rectangle {
+    width: 100%;
+    height: 60%;
+}
+.medium-size-rectangle {
+    width: 100%;
+    height: 40%;
+}
+.small-size-rectangle {
+    width: 100%;
+    height: 20%;
+}
+
+/* new colors */
+
+.purple {
+    background-color: purple;
+}
+.crimson {
+    background-color: crimson;
+}
+.darkgoldenrod {
+    background-color: darkgoldenrod;
+}
+.gradient-red-blue {
+    background: linear-gradient(to bottom, red 0%, blue 100%)
+}
+.gradient-blue-red {
+    background: linear-gradient(to top, red 0%, blue 100%)
+}
